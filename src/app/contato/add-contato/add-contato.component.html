@@ -2,7 +2,7 @@
 
 <div class="pt-3 pb-2 mb-3 border-bottom">
 
-  <h2 class="h2">Adicionar Contato</h2>
+  <h2 class="h2">Adicionar Produto</h2>
 
 </div>
 
@@ -28,7 +28,7 @@
 
             [ngClass]="{'text-danger': nome?.touched && nome?.invalid}"
 
-            for="nome" class="form-label">Nome</label>
+            for="nome" class="form-label">Nome do produto</label>
 
           <input
 
@@ -38,7 +38,7 @@
 
           <!-- errors-->
 
-          <div class="invalid-feedback"><sup>*</sup>Nome obrigatório</div>
+          <div class="invalid-feedback"><sup>*</sup>Nome do produto obrigatório</div>
 
         </div>
 
@@ -46,7 +46,7 @@
 
       <!-- LINHA 1 - CAMPO NOME -->
 
-      <!-- LINHA 2 - CAMPO IDADE -->
+      <!-- LINHA 2 - CAMPO Quantidade -->
 
       <div class="row">
 
@@ -56,7 +56,7 @@
 
             [ngClass]="{'text-danger': idade?.touched && idade?.invalid}"
 
-            for="idade" class="form-label">Idade</label>
+            for="idade" class="form-label">Quantidade</label>
 
           <input
 
@@ -74,15 +74,13 @@
 
           <!-- Validation FeedBack -->
 
-          <div class="invalid-feedback"><sup>*</sup>Idade obrigatório</div>
+          <div class="invalid-feedback"><sup>*</sup>Quantidade obrigatório</div>
 
         </div>
 
       </div>
 
-      <!-- LINHA 2 - CAMPO IDADE -->
-
-      <!-- LINHA 3 - CAMPO TELEFONE -->
+      <!-- LINHA 2 - CAMPO Quantidade -->
 
       <div class="row">
 
@@ -92,7 +90,7 @@
 
             [ngClass]="{'text-danger': telefone?.touched && telefone?.invalid}"
 
-            for="telefone" class="form-label">Telefone:</label>
+            for="telefone" class="form-label">Preço:</label>
 
           <input
 
@@ -116,7 +114,7 @@
 
       </div>
 
-      <!-- LINHA 3 - CAMPO TELEFONE -->
+      <!-- LINHA 3 - CAMPO Preço -->
 
       <!-- BOTÕES DO FORMULÁRIO -->
 
@@ -130,7 +128,7 @@
 
         <button type="submit" class="btn btn-success mx-2" [disabled]="!contatoForm.valid">
 
-          Adicionar Contato
+          Adicionar Produto
 
         </button>
 
