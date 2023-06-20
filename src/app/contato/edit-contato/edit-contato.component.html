@@ -36,13 +36,13 @@
 
         <div class="col-md-12 mb-3">
 
-          <label>Quantidade</label>
+          <label>Quantquantidade</label>
 
           <input
 
             type="number"
 
-            formControlName="idade"
+            formControlName="quantidade"
 
             class="form-control"
 
@@ -52,9 +52,9 @@
 
           <!-- errors-->
 
-          <p *ngIf="idade?.touched && idade?.invalid" class="error">
+          <p *ngIf="quantidade?.touched && quantidade?.invalid" class="error">
 
-            <sup>*</sup>Informe a quantidade
+            <sup>*</sup>Informe a quantquantidade
 
           </p>
 
@@ -66,13 +66,13 @@
 
         <div class="col-md-12 mb-3">
 
-          <label>Preço:</label>
+          <label>preco:</label>
 
           <input
 
             type="text"
 
-            formControlName="telefone"
+            formControlName="preco"
 
             class="form-control"
 
@@ -82,13 +82,13 @@
 
           <!-- errors-->
 
-          <p *ngIf="telefone?.touched && telefone?.invalid" class="error">
+          <p *ngIf="preco?.touched && preco?.invalid" class="error">
 
-            <sup>*</sup>Informe o preço
+            <sup>*</sup>Informe o preco
 
           </p>
 
-          <p *ngIf="telefone?.errors?.['pattern']" class="error">
+          <p *ngIf="preco?.errors?.['pattern']" class="error">
 
             <sup>*</sup>Use apenas números
 

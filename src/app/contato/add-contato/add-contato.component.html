@@ -46,7 +46,7 @@
 
       <!-- LINHA 1 - CAMPO NOME -->
 
-      <!-- LINHA 2 - CAMPO Quantidade -->
+      <!-- LINHA 2 - CAMPO Quantquantidade -->
 
       <div class="row">
 
@@ -54,17 +54,17 @@
 
           <label
 
-            [ngClass]="{'text-danger': idade?.touched && idade?.invalid}"
+            [ngClass]="{'text-danger': quantidade?.touched && quantidade?.invalid}"
 
-            for="idade" class="form-label">Quantidade</label>
+            for="quantidade" class="form-label">Quantidade</label>
 
           <input
 
-            [ngClass]="{'is-invalid': idade?.touched && idade?.invalid, 'is-valid': idade?.touched && idade?.valid}"
+            [ngClass]="{'is-invalid': quantidade?.touched && quantidade?.invalid, 'is-valid': quantidade?.touched && quantidade?.valid}"
 
             type="number"
 
-            formControlName="idade"
+            formControlName="quantidade"
 
             class="form-control"
 
@@ -80,7 +80,7 @@
 
       </div>
 
-      <!-- LINHA 2 - CAMPO Quantidade -->
+      <!-- LINHA 2 - CAMPO Quantquantidade -->
 
       <div class="row">
 
@@ -88,17 +88,17 @@
 
           <label
 
-            [ngClass]="{'text-danger': telefone?.touched && telefone?.invalid}"
+            [ngClass]="{'text-danger': preco?.touched && preco?.invalid}"
 
-            for="telefone" class="form-label">Preço:</label>
+            for="preco" class="form-label">preço:</label>
 
           <input
 
-            [ngClass]="{'is-invalid': telefone?.touched && telefone?.invalid, 'is-valid': telefone?.touched && telefone?.valid}"
+            [ngClass]="{'is-invalid': preco?.touched && preco?.invalid, 'is-valid': preco?.touched && preco?.valid}"
 
             type="text"
 
-            formControlName="telefone"
+            formControlName="preco"
 
             class="form-control"
 
@@ -114,7 +114,7 @@
 
       </div>
 
-      <!-- LINHA 3 - CAMPO Preço -->
+      <!-- LINHA 3 - CAMPO preco -->
 
       <!-- BOTÕES DO FORMULÁRIO -->
 

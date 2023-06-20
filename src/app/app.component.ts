@@ -15,7 +15,7 @@ export class AppComponent {
   test() {
     const objeto = {
       nome: "Fulano",
-      idade: 14,
+      quantidade: 14,
       matricula: 1234521541
     }
      this.db.object("teste")
